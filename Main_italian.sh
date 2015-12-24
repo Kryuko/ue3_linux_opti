@@ -6,7 +6,8 @@ MEM=$(grep -o "Memory:\ [0-9]*" /var/log/Xorg.0.log | grep -Eo "[0-9]+")
 let MEM=$MEM/1024
 echo $MEM
 
-zenity --info --text "PREMENDO OK ACCETTI LA NOSTRA LICENZA"
+zenity --info --text "PREMENDO OK ACCETTI LA NOSTRA LICENZA \n 
+Programma creato da Gianmaria Generoso, admin di www.italiaunix.com, e Alberto Pau."
        --title="Licenza" \
 	#--text="Inserisci la tua memoria video in MB" \
        #--checkbox="I read and accept the terms."
