@@ -21,7 +21,7 @@ echo $MEMORY
 find ~/.local/share/ -type f -iname *.ini -exec sed -inr "s/^PoolSize=.*/PoolSize=$MEMORY/g" {} \;
 
 zenity --width=600 --height=400 --info --text "Tutti i tuoi giochi UE3 sono stati impostati a $MEMORY MB"
-HALFMEMORY=$(($MEM / 4))
+HALFMEMORY=$(($MEM / 10))
 echo $HALFMEMORY
 
 find ~/.local/share/ -type f -iname *.ini -exec sed -inr "s/^MemoryMargin=.*/MemoryMargin=$HALFMEMORY/g" {} \;
