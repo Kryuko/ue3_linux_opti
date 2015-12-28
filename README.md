@@ -14,4 +14,16 @@ chmod 777 MainEng.sh
 ./MainEng.sh
 
 
+If the auto-detect doesn't work just use the Manual ver.
+cd /tmp
+
+git clone https://github.com/Kryuko/ue3_linux_opti/
+
+cd ue3_linux_opti/
+
+chmod 777 MainEngManual.sh
+
+./MainEngManual.sh
+
+
 Enjoy!
