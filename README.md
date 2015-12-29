@@ -5,25 +5,10 @@ Type these commands:
 
 cd /tmp
 
-git clone https://github.com/Kryuko/ue3_linux_opti/
+git clone https://github.com/DGdev91/ue3_linux_opti.git
 
 cd ue3_linux_opti/
 
-chmod 777 MainEng.sh
+chmod 777 UE3_Linux_Opti.sh
 
-./MainEng.sh
-
-
-If the auto-detect doesn't work just use the Manual ver.
-cd /tmp
-
-git clone https://github.com/Kryuko/ue3_linux_opti/
-
-cd ue3_linux_opti/
-
-chmod 777 MainEngManual.sh
-
-./MainEngManual.sh
-
-
-Enjoy!
+./UE3_Linux_Opti.sh
