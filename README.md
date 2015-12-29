@@ -5,7 +5,7 @@ Type these commands:
 
 cd /tmp
 
-git clone https://github.com/DGdev91/ue3_linux_opti.git
+git clone https://github.com/Kryuko/ue3_linux_opti
 
 cd ue3_linux_opti/
 
