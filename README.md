@@ -1,4 +1,5 @@
-# ue3_linux_opti
+# UE3 LINUX OPTIMIZER
+
 This script will optimize all your UE3 games on Linux giving a 20% FPS boost.
 
 Type these commands:
