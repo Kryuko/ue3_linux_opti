@@ -56,7 +56,7 @@ fi
 HALFMEMORY=$(($MEM / 10))
 
 find ~/.local/share/ -type f -iname *.ini -exec sed -inr "s/^MemoryMargin=.*/MemoryMargin=$HALFMEMORY/g" {} \;
-if [ $language == "it" ]; then
+if [ $language == "it_IT" ]; then
     zenity --info --text "MemoryMargin impostato a $HALFMEMORY MB"
 else
     zenity --info --text "MemoryMargin has been set to $HALFMEMORY MB"
